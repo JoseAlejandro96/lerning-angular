@@ -65,7 +65,7 @@
       "price": 5,
       "description": "En Hackeando del cerebro de tus compradores, Corti nos revela cómo muchas compañías crean productos digitales o procesos de venta capaces de conectar con la psicología del comprador.",
       "categoryId": 1,
-      "stock": 10
+      "stock": 9
     },
     {
       "id": 3,
@@ -124,6 +124,56 @@
       "shippingAddress": "Av. de la Granvia de Hospitalet, 115",
       "city": "Barcelona",
       "pickup": true
+    },
+    {
+      "name": "Jose",
+      "store": {
+        "id": 2,
+        "name": "Store Alcalá",
+        "address": "Calle de Alcalá, 21",
+        "city": "Madrid",
+        "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+      },
+      "date": "10/11/2021",
+      "pickup": false,
+      "id": 2
+    },
+    {
+      "name": "Jose",
+      "shippingAddress": "",
+      "city": "",
+      "date": "10/11/2021",
+      "pickup": true,
+      "id": 3
+    },
+    {
+      "name": "Jose",
+      "shippingAddress": "",
+      "city": "",
+      "date": "10/11/2021",
+      "pickup": true,
+      "id": 4
+    },
+    {
+      "name": "Jose Alejandro",
+      "store": {
+        "id": 3,
+        "name": "Chambers and West Broadway",
+        "address": "125 Chambers Street",
+        "city": "New York",
+        "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+      },
+      "date": "10/11/2021",
+      "isDelivery": false,
+      "id": 5
+    },
+    {
+      "name": "Jose",
+      "shippingAddress": "",
+      "city": "",
+      "date": "10/11/2021",
+      "isDelivery": true,
+      "id": 6
     }
   ],
   "detailsOrders": [
@@ -132,6 +182,70 @@
       "orderId": 1,
       "quantity": 10,
       "productName": "Product name"
+    },
+    {
+      "details": [
+        {
+          "productId": 2,
+          "productName": "Hackeando el cerebro de tus compradores: PsychoGrowth",
+          "quantity": 3
+        }
+      ],
+      "orderId": 2,
+      "id": 2
+    },
+    {
+      "details": [
+        {
+          "productId": 2,
+          "productName": "Hackeando el cerebro de tus compradores: PsychoGrowth",
+          "quantity": 3
+        },
+        {
+          "productId": 5,
+          "productName": "GoPro HERO9 Black - Waterproof Action Camera with Front LCD",
+          "quantity": 3
+        }
+      ],
+      "orderId": 3,
+      "id": 3
+    },
+    {
+      "details": [
+        {
+          "productId": 1,
+          "productName": "Essential TypeScript 4: From Beginner to Pro",
+          "quantity": 1
+        },
+        {
+          "productId": 2,
+          "productName": "Hackeando el cerebro de tus compradores: PsychoGrowth",
+          "quantity": 1
+        }
+      ],
+      "orderId": 4,
+      "id": 4
+    },
+    {
+      "details": [
+        {
+          "productId": 1,
+          "productName": "Essential TypeScript 4: From Beginner to Pro",
+          "quantity": 3
+        },
+        {
+          "productId": 2,
+          "productName": "Hackeando el cerebro de tus compradores: PsychoGrowth",
+          "quantity": 1
+        }
+      ],
+      "orderId": 5,
+      "id": 5
+    },
+    {
+      "details": [],
+      "orderId": 6,
+      "id": 6
     }
   ]
 }
